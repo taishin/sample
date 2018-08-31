@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Check docker version
           command: |
-            docekr version
+            docker version
       - run:
           name: Load Docker image layer cache
           command: |
