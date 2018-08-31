@@ -22,7 +22,7 @@ jobs:
           name: Install dependencies
           command: |
             apk add --no-cache py-pip=9.0.0-r1 gettext
-            pip install docker-compose=1.12.0
+            pip install docker-compose==1.12.0
             gcloud components install kubectl
       - run:
           name: Install Docker client
